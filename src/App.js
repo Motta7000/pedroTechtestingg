@@ -21,7 +21,7 @@ function App() {
       alert(err);
     });
     console.log(movieReviewList)
-    setMovieReviewList(movieReviewList.filter((i) => i.movieName != movie))
+    setMovieReviewList(movieReviewList.filter((i) => i.movieName !== movie))
   }
 
   const updateReview = (movie) => {
